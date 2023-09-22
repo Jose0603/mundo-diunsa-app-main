@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Mundo Diunsa",
+    "slug": "Mundo-Diunsa",
+    "version": "1.3.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "mnd",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/logo-diunsa.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/ad124162-90cc-4ebc-9964-c025de750cd3"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "hn.diunsa.mundo",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "Mundo Diunsa requiere geolocalización para mostrarte la informacion del tiempo en tu ubicacion.",
+        "NSLocationWhenInUseUsageDescription": "Mundo Diunsa requiere geolocalización para mostrarte la informacion del tiempo en tu ubicacion",
+        "NSPhotoLibraryUsageDescription": "Mundo Diunsa ingresa a tu galeria para adjuntar imagenes a tus incidencias.",
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.NOTIFICATIONS",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "package": "com.diunsa.mundo",
+      "versionCode": 15
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Mundo Diunsa ingresa a tu galeria para adjuntar imagenes a tus incidencias."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ad124162-90cc-4ebc-9964-c025de750cd3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "171099508566",
+    "firebase_url": "https://mundo-diunsa-default-rtdb.firebaseio.com",
+    "project_id": "mundo-diunsa",
+    "storage_bucket": "mundo-diunsa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171099508566:android:1495cf963f59712015d0f7",
+        "android_client_info": {
+          "package_name": "com.diunsa.mundo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171099508566-0ib2nmfil0pffg81nr3v3hm4tklvbs9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgI-EFWOl2xO1GHEhxaHmZnjMt_z7dfS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171099508566-0ib2nmfil0pffg81nr3v3hm4tklvbs9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

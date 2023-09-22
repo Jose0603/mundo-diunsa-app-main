@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+dist/
+.firebase/
+npm-debug.*
+*.mobileprovision
+*.orig.*
+web-build/
+*.zip
+
+# macOS
+.DS_Store

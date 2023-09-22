@@ -1,0 +1,47 @@
+{
+  "cli": {
+    "version": ">= 0.46.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "channel": "dev"
+    },
+    "internal-test": {
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "internal-test"
+    },
+    "test": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      },
+      "channel": "test-expediente"
+    },
+    "production": {
+      "channel": "prod",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "1622094836",
+        "appleTeamId": "656V73VP54"
+      }
+    }
+  }
+}

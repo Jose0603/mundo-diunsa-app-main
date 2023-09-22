@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-self: center; */
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  object-fit: contain;
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(0, 119, 205, 0.89);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  -webkit-text-stroke: 0.3px #c0c0c0;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

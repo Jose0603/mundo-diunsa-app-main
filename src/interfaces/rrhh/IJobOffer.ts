@@ -1,0 +1,32 @@
+export interface IJobOffer {
+  cosCodigo: number;
+  cosCodrep: number | null;
+  cosEstado: string;
+  cosNombre: string;
+  cosFechaCambioEstado: string;
+  cosComentarioCancelacion: string;
+  cosComentarioAnulacion: string;
+  cosTipoRequisicion: string;
+  cosCodpue: number;
+  cosJustificacion: string;
+  cosNombrePlaza: string;
+  cosCodtco: number;
+  cosFechaIniContratacion: string;
+  cosFechaFinContratacion: string | null;
+  cosAceptaExternos: boolean | null;
+  cosAceptaInternos: boolean | null;
+  cosFechaIniPublicacion: string | null;
+  cosFechaFinPublicacion: string | null;
+  cosTextoOportunidad: string;
+  cosCodempSolicita: number;
+  cosFechaSolicitud: string;
+  cosCodexpDigita: number | null;
+  cosCodempResponsable: number | null;
+  cosTextoRecordatorio: string;
+  cosPropertyBagData: string;
+  cosUsuarioGrabacion: string;
+  cosFechaGrabacion: string | null;
+  cosUsuarioModificacion: string;
+  cosFechaModificacion: string | null;
+  ofertaExternaId: number | null;
+}
